@@ -1,14 +1,9 @@
-# Africa Dianping · SAVOUR
+# 餐厅双端产品原型
 
-基于需求截图制作的餐饮点评 MVP 交互原型，支持英语和法语，适配桌面与手机。
+在线访问：https://huangbo1997.github.io/Africa-Dianping/
 
-打开 `prototype/index.html` 查看原型；产品范围与实现状态见 `prototype/功能清单.md`。
+点击顶部按钮切换客户端和管理端。支持菜单搜索、规格加料、购物车、模拟下单、后台处理订单、改价与售罄。
 
-也可以运行：
+纯静态流程演示，无真实登录、支付、数据库；数据仅保留在当前页面内存，刷新重置。
 
-```sh
-cd prototype
-python3 -m http.server 4173
-```
-
-此版本使用虚构商家与示例数据。WhatsApp、导航、点评保存、商家账号和支付尚未接入真实服务。
+GitHub Pages 使用 main 的 docs 目录，修改原型时同步三个 index.html。产品分析见 产品拆解与功能清单.md。

@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: africa-dianping
+    runtime: docker
+    rootDir: fullstack
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: ADMIN_PASSWORD
+        generateValue: true
+    disk:
+      name: restaurant-data
+      mountPath: /data
+      sizeGB: 1

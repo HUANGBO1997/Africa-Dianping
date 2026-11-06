@@ -1,0 +1,1 @@
+{"name":"africa-dianping","version":"1.0.0","type":"module","private":true,"engines":{"node":">=22.13"},"scripts":{"start":"node server.mjs","test":"node --test"}}
